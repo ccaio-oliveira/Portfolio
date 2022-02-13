@@ -11,7 +11,7 @@ body{
 #container{
 	width: 40%;
 	height: fit-content;
-	min-width: 500px;
+	min-width: 400px;
 	margin: 10% auto;
 	padding: 10px;
 	text-align: center;
