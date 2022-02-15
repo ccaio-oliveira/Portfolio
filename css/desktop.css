@@ -1,0 +1,9 @@
+@media (min-width: 576px) {
+	body{
+		text-align: center;
+	}
+
+	button{
+		margin: 20px 0px;
+	}
+}

@@ -7,7 +7,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My Portfolio</title>
 
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+		<!-- Estilo css -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/desktop.css">
 
 	</head>
 
@@ -16,69 +22,79 @@
 		<div id="container">
 			
 			<header>
+				<img src="imagens/perfil.jpeg">
 				<h1>Hi! My name's Caio</h1>
-				<hr>
-				<h3>I'm a Full-Stack Developer</h3>
+				<h4>I'm a Full-Stack Developer</h4>
 			</header>
 
 			<section>
 
-				<article id="skills">
-					<h1>Skills</h1>
-					<p>
-						Actually, I know how to work with Python, CSS3, HTML5, Git and GitHub <br>
-						<em>I'm currently learning bootstrap and responsive design.</em>
-					</p>
+				<article id="soft">
 
-					<h1>Soft skills</h1>
-					<p>
-						I'm a hardworking person, I like to keep things organized, I have an easy interaction with people.
-					</p>
+					<div id="skills">
+						<h1>Skills</h1>
+						<p>
+							Actually, I know how to work with Python, CSS3, HTML5, Git and GitHub <br><br>
+							<em>I'm currently learning bootstrap and responsive design.</em>
+						</p>
+					</div>
+
+					<div>
+						<h1>Soft skills</h1>
+						<p>
+							I'm a hardworking person, I like to keep things organized, I have an easy interaction with people.
+						</p>
+					</div>
+
+					<nav>
+						<h4>Contact</h4>
+						<a href="https://www.linkedin.com/in/caiooliveira82/"><button class="btn btn-info" type="button">LinkedIn</button></a>
+						<a href="https://www.instagram.com/ccaiooliveira27/"><button class="btn btn-info" type="button">Instagram</button></a>
+						<a href="https://github.com/Grindelwald27"><button class="btn btn-info" type="button">GitHub</button></a>
+					</nav>
+
+
 				</article>
-
-				<hr>
 
 				<article id="projects">
 					
 					<h1>Projects</h1>
-					<h3>
-						1) That's a website made for a fictitious museum
-					</h3>
-					<video src="videos/museu-nacional.mp4" controls muted></video>
 
-					<hr>
+					<div>
+						<h4>
+							1) That's a website made for a fictitious museum
+						</h4>
+						<video src="videos/museu-nacional.mp4" controls muted></video>
+						<a href="https://grindelwald27.github.io/projeto6/"><button class="btn btn-info" type="button">Visit</button></a>
+					</div>
 
-					<h3>2) That's a summary for a buy in a music website</h3>
-					<video src="videos/summary.mp4" controls muted></video>
+					<div>
+						<h4>2) That's a summary for a buy in a music website</h4>
+						<video src="videos/summary.mp4" controls muted></video>
+						<a href="https://grindelwald27.github.io/order-summary-component-main/"><button class="btn btn-info" type="button">Visit</button></a>
+					</div>
 
-					<hr>
+					<div>
+						<h4>3) That's a simple QR Code page</h4>
+						<img src="imagens/qr-code.png">
+						<a href="https://grindelwald27.github.io/projeto-qr-code/"><button class="btn btn-info" type="button">Visit</button></a>
+					</div>
 
-					<h3>3) That's a simple QR Code page</h3>
-					<img src="imagens/qr-code.png">
+					<div>
+						<h4>4) That's a NFT card</h4>
+						<video src="videos/nft.mp4" controls muted></video>
+						<a href="https://grindelwald27.github.io/nft-preview-card-component-main/"><button class="btn btn-info" type="button">Visit</button></a>
+					</div>
 
-					<hr>
+					<div>
+						<h4>5) That's a preview card</h4>
+						<img src="imagens/preview-card.png">
+						<a href="https://grindelwald27.github.io/preview-card/"><button class="btn btn-info mb-3" type="button">Visit</button></a>
+					</div>
 
-					<h3>4) That's a NFT card</h3>
-					<video src="videos/nft.mp4" controls muted></video>
 				</article>
 
 			</section>
-
-			<footer>
-
-				<nav>
-					<form>
-						<fieldset>
-							<legend>Contact</legend>
-							<a href="https://www.linkedin.com/in/caiooliveira82/"><input type="button" value="LinkedIn"></a>
-							<a href="https://www.instagram.com/ccaiooliveira27/"><input type="button" value="Instagram"></a>
-							<a href="https://github.com/Grindelwald27"><input type="button" value="GitHub"></a>
-
-						</fieldset>
-					</form>
-				</nav>
-
-			</footer>
 
 		</div>
 
