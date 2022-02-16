@@ -12,15 +12,15 @@
 		margin: 0px auto;
 	}
 
-
 	#esquerda{
-	width: 50%;
+	width: 48%;
 	float: left;
 	}
 
 	#direita{
-		width: 50%;
+		width: 48%;
 		float: right;
 	}
+
 
 }

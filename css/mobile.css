@@ -1,4 +1,4 @@
-@media(min-width: 375px) and (max-width: 575px) {
+@media(min-width: 375px) and (max-width: 575px){
 	body {
 		text-align: center;
 	}
@@ -9,21 +9,13 @@
 		margin-bottom: 20px;
 	}
 
-	article div {
-		margin-top: 20px;
-	}
-
 	button{
 		margin-top: 20px;
 	}
 
 	.progress{
-		width: 80%;
+		width: 70%;
 		margin: 0px auto;
-	}
-
-	.progress-bar{
-		background-color: hsl(244, 38%, 16%);
 	}
 
 }
