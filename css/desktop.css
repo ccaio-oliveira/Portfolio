@@ -6,4 +6,21 @@
 	button{
 		margin: 20px 0px;
 	}
+
+	.progress{
+		width: 70%;
+		margin: 0px auto;
+	}
+
+
+	#esquerda{
+	width: 50%;
+	float: left;
+	}
+
+	#direita{
+		width: 50%;
+		float: right;
+	}
+
 }
