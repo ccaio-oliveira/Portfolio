@@ -3,12 +3,6 @@
 		text-align: center;
 	}
 
-	header img {
-		width: 200px;
-		height: 200px;
-		margin-top: 20px;
-		border-radius: 500px;
-	}
 
 	header h1 {
 		margin-top: 20px;
@@ -22,4 +16,14 @@
 	button{
 		margin-top: 20px;
 	}
+
+	.progress{
+		width: 80%;
+		margin: 0px auto;
+	}
+
+	.progress-bar{
+		background-color: hsl(244, 38%, 16%);
+	}
+
 }
