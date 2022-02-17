@@ -3,7 +3,7 @@
 		text-align: center;
 	}
 
-	h4{
+	h2{
 		margin-top: 15px;
 	}
 
@@ -16,9 +16,12 @@
 		margin-top: 20px;
 	}
 
-	.progress{
-		width: 70%;
-		margin: 0px auto;
+	.esquerda{
+		order: 1;
+	}
+
+	.direita {
+		order: 2;
 	}
 
 }
