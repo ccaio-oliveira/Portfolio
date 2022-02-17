@@ -7,18 +7,26 @@
 		margin: 20px 0px;
 	}
 
+	video {
+		width: 80%;
+	}
+
+	.esquerda img, .direita img {
+		width: 80%;
+	}
+
 	.progress{
 		width: 70%;
 		margin: 0px auto;
 	}
 
-	#esquerda{
-	width: 48%;
+	.esquerda{
+	width: 50%;
 	float: left;
 	}
 
-	#direita{
-		width: 48%;
+	.direita{
+		width: 50%;
 		float: right;
 	}
 

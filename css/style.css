@@ -40,7 +40,7 @@ article#soft h1{
 }
 
 .progress-bar{
-	background-color: #D0A9F5;
+	background-color: #170B3B;
 }
 
 #soft-skills{
@@ -60,4 +60,10 @@ form{
 	width: 90%;
 	margin: 0px auto;
 	padding: 10px;
+}
+
+footer{
+	margin: 20px auto;
+	padding: 20px;
+	clear: both;
 }
