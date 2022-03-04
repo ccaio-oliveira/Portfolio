@@ -11,29 +11,19 @@
 		width: 80%;
 	}
 
-	.esquerda img, .direita img {
+	div#skills {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	article#projects {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	article#projects img {
 		width: 80%;
+		height: 240px;
 	}
-
-	.progress{
-		width: 70%;
-		margin: 0px auto;
-	}
-
-	.esquerda{
-	width: 50%;
-	float: left;
-	}
-
-	.direita{
-		width: 50%;
-		float: right;
-	}
-
-	.direita img {
-		margin-top: 10px;
-		margin-bottom: 20px;
-	}
-
-
 }

@@ -15,13 +15,4 @@
 	a{
 		margin-top: 20px;
 	}
-
-	.esquerda{
-		order: 1;
-	}
-
-	.direita {
-		order: 2;
-	}
-
 }
