@@ -7,10 +7,6 @@
 		margin: 20px 0px;
 	}
 
-	video {
-		width: 80%;
-	}
-
 	div#skills {
 		display: flex;
 		justify-content: space-evenly;
@@ -25,5 +21,13 @@
 	article#projects img {
 		width: 80%;
 		height: 240px;
+	}
+
+	div#esquerda {
+		width: 50%;
+	}
+
+	div#direita {
+		width: 50%;
 	}
 }
