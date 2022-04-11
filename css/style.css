@@ -17,6 +17,13 @@ body{
 	box-shadow: 5px 5px 20px 5px black;
 }
 
+img.icon{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	bottom: 10px;
+}
+
 header h2 {
 	font-size: 1.2em;
 	margin-bottom: 40px;
@@ -68,4 +75,13 @@ footer{
 	margin: 20px auto;
 	padding: 20px;
 	clear: both;
+}
+
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: orange;
+}
+
+footer a:hover {
+	color: white;
 }
